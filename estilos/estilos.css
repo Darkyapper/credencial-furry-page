@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+
+body{
+    background-color: rgb(211, 253, 239);
+    margin: 0;
+}
+
+header{
+    background:#df1235;
+    width:100%;
+    clear: both;
+    content:"";
+    display: table;
+}
+
+.menu img{
+    width:65px;
+    padding-left:80px;
+    padding-top:5px;
+}
+
+.menu{
+    width:1340px;
+    height:70px;
+    margin:0;
+}
+
+.contenedor{
+    float: right;
+    padding-top:10px;
+}
+
+.menu nav ul li{
+    list-style:none;
+    margin-left:25px;
+    float:left;
+}
+
+.menu nav ul li a{
+    font-family:"Bebas Neue";
+    font-size:25px;
+    text-decoration:none;
+    color:white;
+}
+
+.menu nav ul li a:hover{
+    color:#14003D;
+}
+
+#title{
+    margin:0px;
+    margin-left:25px;
+    margin-top:22px;
+    font-size: 40px;
+    font-family: "Poppins";
+}
+
+.img-contenedor img{
+    width:100%;
+    position: relative;
+    display: none;
+}
+
+.contenedor2{
+
+    width: 100%;
+    min-width: 520px;
+    position: relative;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 209px;
+}
+
+.img-contenedor .active{
+    display: block;
+}
+
+#prev, #next{
+    height: 200px;
+    width: 40px;
+    position:absolute;
+    background-color: #df12354a;
+    color: #fff;
+    margin:auto;
+    top: 0;
+    bottom: 50;
+    border: none;
+    border-radius: 3px;
+    font-family:"Poppins";  
+    font-size: 26px;
+    font-weight: bolder;
+}
+
+#prev{
+    left: 15px;
+}
+
+#next{
+    right: 15px;
+}
+
+#parrafo{
+    font-family: "Noto Sans JP";
+    margin:0px;
+    margin-left:25;
+    font-size:18px;
+    font-weight: bolder;
+}
