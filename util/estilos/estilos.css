@@ -8,11 +8,19 @@ body{
 }
 
 header{
-    background:#df1235;
+    background:#ed1e31;
     width:100%;
     clear: both;
     content:"";
     display: table;
+    position:fixed;
+    top: 0;
+    left: 0;
+    z-index:1000;
+}
+
+main{
+    margin-top:70px;
 }
 
 .menu img{
