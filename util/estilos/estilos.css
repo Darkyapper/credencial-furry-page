@@ -61,11 +61,12 @@ main{
     transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
 }
 
-#title{
+.body_one h1{
     margin:0px;
     margin-left:25px;
-    margin-top:22px;
+    margin-top:24px;
     font-size: 40px;
+    padding-top:23px;
     font-family: "Poppins";
 }
 
@@ -82,7 +83,7 @@ main{
     position: relative;
     transform: translate(-50%, -50%);
     left: 50%;
-    top: 209px;
+    top: 206px;
 }
 
 .img-contenedor .active{
@@ -113,7 +114,7 @@ main{
     right: 15px;
 }
 
-#parrafo{
+.introduction_p p{
     font-family: "Noto Sans JP";
     margin:0px;
     margin-left:25;
@@ -129,5 +130,11 @@ main{
 }
 
 .introduction_p{
-    margin-top:15px;
+    margin-top:12px;
+}
+
+.body_one img{
+    width:90%;
+    padding-left:5%;
+    padding-top:2%;
 }
