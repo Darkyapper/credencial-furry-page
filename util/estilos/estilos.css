@@ -38,6 +38,7 @@ main{
 .contenedor{
     float: right;
     padding-top:10px;
+    margin-right:20px;
 }
 
 .menu nav ul li{
