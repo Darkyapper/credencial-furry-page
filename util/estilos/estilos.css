@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
 
 body{
-    background-color: rgb(211, 253, 239);
+    background-color: rgb(209 225 220);
     margin: 0;
 }
 
@@ -51,10 +51,14 @@ main{
     font-size:25px;
     text-decoration:none;
     color:white;
+    transition-duration: 0.12s;
+    transition-timing-function: ease-out;
 }
 
 .menu nav ul li a:hover{
     color:#14003D;
+    transition-duration: 0.12s;
+    transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
 }
 
 #title{
@@ -115,4 +119,11 @@ main{
     margin-left:25;
     font-size:18px;
     font-weight: bolder;
+}
+
+.body_one{
+    background-color: white;
+    margin-left:5%;
+    margin-right:5%;
+    border-radius:10px;
 }
