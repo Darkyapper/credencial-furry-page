@@ -139,3 +139,12 @@ main{
     padding-left:5%;
     padding-top:2%;
 }
+
+.breve_desc p{
+    font-family: "Noto Sans JP";
+    margin:0px;
+    margin-left:25;
+    font-size:18px;
+    font-weight: bolder;
+    margin-top:12px;
+}
